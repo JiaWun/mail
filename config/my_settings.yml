@@ -1,0 +1,14 @@
+# config/application.yml
+defaults: &defaults
+  smtp:
+    userid: a26705971@gmail.com
+    password: Hkj_16T_NKkZIKkx_vAvFg
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
